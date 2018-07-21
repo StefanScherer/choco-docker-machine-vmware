@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>docker-machine-vmware</id>
+    <title>docker-machine-vmware</title>
+    <version>0.1.0</version>
+    <authors>Yongkun Anfernee Gui, Fabio Rapposelli</authors>
+    <owners>StefanScherer</owners>
+    <summary>VMWare Workstation driver for Docker Machine</summary>
+    <description>Machine lets you create Docker hosts on your computer, on cloud providers, and inside your own data center. It creates servers, installs Docker on them, then configures the Docker client to talk to them.
+    </description>
+    <dependencies>
+      <dependency id="docker-machine" />
+    </dependencies>
+    <projectUrl>https://github.com/machine-drivers/docker-machine-driver-vmware</projectUrl>
+    <packageSourceUrl>https://github.com/StefanScherer/choco-docker-machine-vmware</packageSourceUrl>
+    <projectSourceUrl>https://github.com/machine-drivers/docker-machine-driver-vmware</projectSourceUrl>
+    <docsUrl>https://github.com/machine-drivers/docker-machine-driver-vmware#usage</docsUrl>
+    <bugTrackerUrl>https://github.com/machine-drivers/docker-machine-driver-vmware/issues</bugTrackerUrl>
+    <iconUrl>https://raw.githubusercontent.com/docker/docker.github.io/master/machine/img/logo.png</iconUrl>
+    <licenseUrl>https://github.com/machine-drivers/docker-machine-driver-vmware/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>docker-machine docker vmware workstation</tags>
+    <releaseNotes>https://github.com/machine-drivers/docker-machine-driver-vmware/commits/master</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
