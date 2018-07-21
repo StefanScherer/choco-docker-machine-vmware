@@ -2,7 +2,7 @@
 
 [![Latest version released](https://img.shields.io/chocolatey/v/docker-machine-vmware.svg)](https://chocolatey.org/packages/docker-machine-vmware)
 [![Package downloads count](https://img.shields.io/chocolatey/dt/docker-machine-vmware.svg)](https://chocolatey.org/packages/docker-machine-vmware)
-[![Build status](https://ci.appveyor.com/api/projects/status/ooidijvs71yxd1o6?svg=true)](https://ci.appveyor.com/project/StefanScherer/choco-docker-machine-vmware)
+[![Build status](https://ci.appveyor.com/api/projects/status/x4d8lykhtkn3p2vg?svg=true)](https://ci.appveyor.com/project/StefanScherer/choco-docker-machine-vmware)
 
 This is a chocolatey package for the docker-machine vmwareworkstation driver plugin. Please see MAINTENANCE.md
 for information on how to upkeep it.

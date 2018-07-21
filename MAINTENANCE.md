@@ -89,7 +89,7 @@ to verify if it is installed.
 Run the following commands to verify uninstallation works:
 
     choco uninstall docker-machine-vmware
-    docker-machine create -d vmwareworkstation // shouldn't work
+    docker-machine create -d vmware // shouldn't work
 
 See the script `test.ps1` for all tests that run on AppVeyor. The script is used to test both the 32bit and the 64bit download link.
 

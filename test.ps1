@@ -43,7 +43,7 @@ $zip.Dispose()
 
 "TEST: Create a machine with driver vmwareworkstation should work"
 try {
-  . docker-machine create -d vmwareworkstation test
+  . docker-machine create -d vmware test
 } catch {
 }
 if (! (Test-Path $env:USERPROFILE\.docker\machine\machines\test)) {
